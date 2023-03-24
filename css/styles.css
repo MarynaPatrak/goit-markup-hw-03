@@ -159,7 +159,7 @@ img {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;*
+    color: #FFFFFF;
  }
 
  .hero-btn { 
@@ -175,7 +175,7 @@ img {
     letter-spacing: 0.04em;
     cursor: pointer;
     color: #FFFFFF;
-    background-color: #4D5AE5
+    background-color: #4D5AE5;
  }
 
 .hero-btn:hover,
@@ -301,11 +301,6 @@ img {
     height: 310px;
 }
 
-/*.footer-logo {
-    margin-top: 100px;
-    margin-bottom: 16px;
-}*/
-
 .footer-text {
     width: 264px;
 
@@ -342,6 +337,8 @@ img {
     cursor: pointer;
     color: #4d5ae5;
     background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 
 .portfolio-btn:hover,
@@ -354,6 +351,9 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 120px;
+
+   /* background: #FFFFFF;
+    border: 1px solid #E7E9FC;*/
 }
 
 .portfolio-item-pic {
@@ -388,4 +388,8 @@ img {
     margin-top: 8px;
     margin-bottom: 32px;
     margin-left: 16px;
+}
+
+/*.portfolio-subtitle + .portfolio-text {
+    border: 1px solid #E7E9FC;*/
 }
