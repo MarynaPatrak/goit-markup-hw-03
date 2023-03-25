@@ -8,7 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 .title {
@@ -56,8 +56,8 @@ img {
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 156px;
-    padding-right: 156px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*---------------HEADER---------------*/
@@ -89,6 +89,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    padding-left: 156px;
 }
 
 .logo>span {
@@ -114,6 +115,7 @@ img {
 
 .header-adress {
     margin-left: auto;
+    padding-right: 156px;
 
     font-size: 16px;
     line-height: 1.5;
@@ -186,8 +188,8 @@ img {
 .functions-list {
     display: flex;
     justify-content: center;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .functions-list .functions-item + .functions-item {
@@ -219,7 +221,7 @@ img {
 /*---------------ACTS---------------*/
 
 .acts-title {
-    margin-bottom: 72px;
+   padding-bottom: 72px;
 
     font-size: 36px;
     line-height: 1.11;
@@ -232,7 +234,7 @@ img {
 .acts-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .acts-item {
@@ -259,7 +261,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
 }
 
 .team-list {
@@ -284,8 +286,8 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    margin-top: 32px;
-    margin-bottom: 8px;
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 
 .team-item-text {
@@ -308,12 +310,17 @@ img {
 }
 
 .footer-text {
-    width: 264px;
+    width: 420px;
+    padding-left: 156px;
 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+}
+
+.footer-logo {
+    margin-bottom: 16px;
 }
 
 .footer-logo>span {
@@ -328,8 +335,8 @@ img {
 .portfolio-list {
     display: flex;
     justify-content: center;
-    margin-top: 96px;
-    margin-bottom: 72px;
+    padding-top: 96px;
+    padding-bottom: 72px;
 }
 
 .portfolio-list .portfolio-item + .portfolio-item {
@@ -359,7 +366,8 @@ img {
 .portfolio-list-pic {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+    padding-left: 156px;
 }
 
 .portfolio-item-pic {
