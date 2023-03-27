@@ -58,7 +58,7 @@ img {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-   /* border: 2px solid tomato;*/
+    /*border: 2px solid tomato;*/
 }
 
 /*---------------HEADER---------------*/
@@ -160,7 +160,7 @@ img {
 .hero-title {
     margin: 0 auto;
     width: 496px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 
     font-size: 56px;
     line-height: 1.07;
