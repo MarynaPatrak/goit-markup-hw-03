@@ -195,10 +195,13 @@ img {
 
 /*---------------SECTION-FUCTIONS---------------*/
 
+.functions {
+    padding: 120px 0;
+} 
+
 .functions-list {
     display: flex;
     justify-content: center;
-    padding: 120px 0;
 }
 
 .functions-list .functions-item+.functions-item {
@@ -230,7 +233,7 @@ img {
 /*---------------ACTS---------------*/
 
 .acts {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .acts-title {
@@ -314,7 +317,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 310px;
+    padding: 100px 0;
 
     background-color: #2E2F42;
 }
@@ -342,8 +345,8 @@ img {
     border-bottom: 1px solid #E7E9FC;
 }
 
-.portfolio-main {
-    margin-top: 96px;
+.portfolio {
+    padding-top: 96px;
 }
 
 .portfolio-list {
@@ -375,7 +378,7 @@ img {
     background-color: #404BBF;
 }
 
-.portfolio-container {
+.portfolio-pics {
     padding: 120px 0;
 }
 
