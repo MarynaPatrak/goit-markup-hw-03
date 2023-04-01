@@ -302,6 +302,10 @@ img {
     margin-bottom: 8px;
 }
 
+.team-item-wrap {
+    padding: 32px 16px;
+}
+
 .team-item-text {
     font-size: 16px;
     line-height: 1.5;
@@ -380,7 +384,7 @@ img {
 }
 
 .portfolio-pics {
-    margin-top: 120px;
+    padding-top: 120px;
 }
 
 .portfolio-list-pic {
